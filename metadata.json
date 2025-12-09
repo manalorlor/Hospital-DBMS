@@ -1,0 +1,5 @@
+{
+  "name": "Amasaman Hospital DBMS",
+  "description": "A comprehensive database management system for Amasaman Government Hospital, featuring Admin and Doctor portals, patient record management, and AI-powered medical assistance.",
+  "requestFramePermissions": []
+}
