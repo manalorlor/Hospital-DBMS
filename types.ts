@@ -1,3 +1,4 @@
+
 export enum UserRole {
   ADMIN = 'ADMIN',
   DOCTOR = 'DOCTOR',
@@ -39,6 +40,8 @@ export interface Patient {
   emergencyContactName?: string;
   emergencyContactPhone?: string;
   chronicConditions?: string;
+  bloodType?: string;
+  allergies?: string;
   assignedDoctorId?: string;
   history: MedicalRecord[];
   createdAt: string;
@@ -68,6 +71,9 @@ export interface LabTest {
   id: string;
   patientId: string;
   patientName: string;
+  patientAge?: number;
+  patientGender?: string;
+  patientContact?: string;
   testName: string;
   date: string;
   status: 'Pending' | 'In Progress' | 'Completed';
